@@ -2,7 +2,11 @@ import type { Metadata } from 'next'
 import { Noto_Sans } from 'next/font/google'
 import './globals.css'
 
-const notoSans = Noto_Sans({ subsets: ['latin'] })
+const notoSans = Noto_Sans({
+  subsets: ['cyrillic'],
+  display: 'swap',
+  weight: ['300', '400', '500', '700'], 
+});
 
 export const metadata: Metadata = {
   title: 'Наш проект',
