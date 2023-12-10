@@ -7,6 +7,9 @@ body {
 	margin: 0;
 	padding: 0;
 
+	color: var(--black);
+	background: #F5F6F8;
+
 	font-family: "Noto_Sans", sans-serif;
 }
 
@@ -23,4 +26,5 @@ a {
 	--red: #FC836D;
 	--green: #1DC37E;
 	--mint-green: #C8F8E4;
+	--font-family: "Noto_Sans", sans-serif;
 }

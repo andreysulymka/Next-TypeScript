@@ -1,9 +1,10 @@
+import Htag from "./components/Htag/Htag";
 
 
 export default function Home() {
   return (
-    <div>
-орпорпорп
-    </div>
+    <>
+  <Htag tag='h2'>Текст</Htag>   
+    </>
   )
 }
