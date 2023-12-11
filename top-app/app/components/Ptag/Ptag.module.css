@@ -1,5 +1,7 @@
 /* stylelint-disable indentation */
-.p {}
+.p {
+    margin: 0;
+}
 
 .m {
     font-size: 14px;
@@ -8,6 +10,7 @@
 
 .l {
     font-size: 16px;
+    line-height: 24px;
 }
 
 .xl {
