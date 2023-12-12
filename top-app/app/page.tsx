@@ -5,12 +5,14 @@ import Tag from "./components/Tag/Tag";
 
 
 
+
 export default function Home() {
+
   return (
     <>
-      <Htag tag='h2'>Текст</Htag>
+      <Htag tag='h2'>Text</Htag>
       <Button appearance="primary">Текст</Button>  
-      <Button appearance="ghost" arrow="down">Текст</Button>  
+      <Button appearance="ghost" arrow="down" >Текст</Button>  
       <Ptag>lkljkljklj</Ptag>
       <Tag>hhjgj</Tag>
       <Tag height="l" color='red'>hhjgj</Tag>
