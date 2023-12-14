@@ -1,8 +1,8 @@
-import Button from "./components/Button/Button";
-import Htag from "./components/Htag/Htag";
-import Ptag from "./components/Ptag/Ptag";
-import Rating from "./components/Rating/Rating";
-import Tag from "./components/Tag/Tag";
+import Button from "../components/Button/Button";
+import Htag from "../components/Htag/Htag";
+import Ptag from "../components/Ptag/Ptag";
+import Rating from "../components/Rating/Rating";
+import Tag from "../components/Tag/Tag";
 
 
 
@@ -10,7 +10,7 @@ import Tag from "./components/Tag/Tag";
 export default function Home() {
 
   return (
-    <>
+    <main>
       <Htag tag='h2'>Text</Htag>
       <Button appearance="primary">Текст</Button>  
       <Button appearance="ghost" arrow="down" >Текст</Button>  
@@ -21,6 +21,6 @@ export default function Home() {
       <Tag color='primary'>hhjgj</Tag>
       <Tag href="string">hhjgj</Tag>
       <Rating rating={4} isEditable={true} />
-    </>
+    </main>
   )
 }
